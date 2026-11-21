@@ -8,7 +8,7 @@ Este repositório é uma vitrine do projeto: telas do site e do painel administr
 
 ## O que tem no projeto
 
-- **Compra em três passos.** Quantidade, usuário Roblox (conferido antes de pagar) e Pix. O preço aparece na primeira tela, sem login, e o login só é pedido para gerar o pagamento.
+- **Compra em três passos.** Quantidade, usuário Roblox (conferido antes de pagar) e Pix. O preço aparece logo na primeira tela.
 - **Pagamento por Pix.** QR Code e código copia e cola, com confirmação automática e acompanhamento do pedido.
 - **RP Coins.** Cada compra rende coins, que podem ser trocadas por Robux ou títulos. As coins valem 15 dias e o vencimento aparece no extrato.
 - **Perfil do cliente.** Nível com emblemas 3D, histórico de pedidos com "comprar de novo", contas Roblox salvas, segurança e aparelhos conectados.
@@ -44,9 +44,5 @@ Este repositório é uma vitrine do projeto: telas do site e do painel administr
 | | | | |
 |---|---|---|---|
 | ![Topo no celular](screenshots/06-home-hero-mobile.png) | ![Checkout no celular](screenshots/08-checkout-mobile.png) | ![Perfil no celular](screenshots/12-perfil-mobile.png) | ![Painel no celular](screenshots/18-admin-mobile.png) |
-
-## Tecnologia
-
-React, TypeScript, Vite e Tailwind CSS no site. Node.js, Express e PostgreSQL no servidor. Login com Firebase Authentication, Pix via API de pagamento e um bot do Discord integrado. Os elementos 3D foram modelados e renderizados no Blender.
 
 Os dados nas telas são de exemplo.
